@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    tools:context=".EditCategory">
+
+    <EditText
+        android:id="@+id/new_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:hint="New Category"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/save_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Save name"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/save_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginRight="10dp"
+        android:hint="New Password"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/save_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Save Password"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/exit"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="-139dp"
+        android:text="Remove"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="197dp"
+        android:text="Exit"
+        android:textSize="15sp" />
+
+</RelativeLayout>
